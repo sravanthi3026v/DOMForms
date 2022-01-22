@@ -1,0 +1,49 @@
+* {
+    background-color: rgb(14, 252, 240);
+    font-size: 20px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  table.list {
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    background-color: rgb(85, 87, 255);
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(19, 15, 15);
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(39, 214, 97);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(19, 15, 15);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  form div.form-action-buttons {
+    text-align: center;
+  }
